@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter> 
       <Header/>
       <Routes>
-        <Route exact path="/" element={<Home greeting={'Anashe'}/>}/>        
+        <Route exact path="/" element={<Home greeting={'INCIDENT'}/>}/>        
         <Route exact path="/NavBar" element={<NavBar/>}/>        
         <Route exact path="/DetalleProducto" element={<DetalleProducto/>}/>
       </Routes>
